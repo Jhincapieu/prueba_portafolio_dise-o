@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio creativo de Nicolle — diseño gráfico, branding, editorial, ilustración y fotografía.">
+  <meta name="theme-color" content="#f3eee7">
+  <meta property="og:title" content="Nicolle — Portafolio">
+  <meta property="og:description" content="Diseño gráfico, branding, editorial, ilustración y fotografía.">
+  <meta property="og:type" content="website">
+  <title>Nicolle — Portafolio</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="page-loader" id="loader" aria-hidden="true">
+    <span>N</span>
+  </div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#inicio" aria-label="Nicolle, inicio">N<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#inicio">Inicio</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <a class="header-cta" href="#contacto">Hablemos <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Diseñadora gráfica · Medellín, Colombia</p>
+        <h1>Ideas que se<br><em>convierten</em><br>en imágenes.</h1>
+        <p class="hero-text">
+          Creo identidades, piezas editoriales y experiencias visuales que
+          combinan concepto, sensibilidad y una estética cuidada.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#proyectos">Ver proyectos <span>↓</span></a>
+          <a class="text-link" href="#sobre-mi">Conóceme <span>↗</span></a>
+        </div>
+      </div>
+
+      <div class="hero-art reveal reveal-delay">
+        <div class="art-frame">
+          <div class="shape shape-one"></div>
+          <div class="shape shape-two"></div>
+          <div class="shape shape-three"></div>
+          <div class="hero-monogram">N</div>
+          <div class="art-caption">PORTFOLIO<br><span>2024 — 2026</span></div>
+        </div>
+        <div class="vertical-label">CREATIVE PRACTICE / 01</div>
+      </div>
+
+      <div class="hero-scroll">SCROLL <span>↓</span></div>
+    </section>
+
+    <section class="intro section" id="sobre-mi">
+      <div class="section-number">01</div>
+      <div class="intro-grid">
+        <div class="intro-title reveal">
+          <p class="eyebrow">Sobre mí</p>
+          <h2>Diseño con<br><em>intención.</em></h2>
+        </div>
+        <div class="intro-copy reveal reveal-delay">
+          <p class="lead">
+            Soy Nicolle, diseñadora gráfica interesada en construir imágenes
+            con personalidad y significado.
+          </p>
+          <p>
+            Me gusta explorar la relación entre tipografía, color, fotografía,
+            ilustración y composición para desarrollar soluciones visuales
+            coherentes y memorables.
+          </p>
+          <p>
+            Cada proyecto comienza con una pregunta: <strong>¿qué queremos
+            comunicar y cómo podemos hacerlo sentir?</strong>
+          </p>
+          <a class="arrow-link" href="#proyectos">Explorar mi trabajo <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section" id="proyectos">
+      <div class="section-number">02</div>
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">Selección de trabajo</p>
+          <h2>Proyectos <em>destacados</em></h2>
+        </div>
+        <p class="section-note">Una selección de proyectos<br>de diseño y dirección visual.</p>
+      </div>
+
+      <div class="filters" role="tablist" aria-label="Filtrar proyectos">
+        <button class="filter active" data-filter="all">Todos</button>
+        <button class="filter" data-filter="branding">Branding</button>
+        <button class="filter" data-filter="editorial">Editorial</button>
+        <button class="filter" data-filter="illustration">Ilustración</button>
+        <button class="filter" data-filter="photography">Fotografía</button>
+      </div>
+
+      <div class="project-grid" id="projectGrid">
+        <article class="project-card project-large reveal" data-category="branding" data-project="0">
+          <button class="project-image image-a" aria-label="Abrir proyecto Identidad Aurora">
+            <span class="project-index">01</span>
+            <span class="image-word">AURORA</span>
+            <span class="image-sub">IDENTIDAD VISUAL</span>
+          </button>
+          <div class="project-meta">
+            <div><h3>Aurora</h3><p>Branding · Identidad visual</p></div>
+            <span>2024</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="editorial" data-project="1">
+          <button class="project-image image-b" aria-label="Abrir proyecto Forma Editorial">
+            <span class="project-index">02</span>
+            <span class="image-word serif">FORMA</span>
+            <span class="image-sub">EDITORIAL</span>
+          </button>
+          <div class="project-meta">
+            <div><h3>Forma</h3><p>Editorial · Dirección de arte</p></div>
+            <span>2024</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="illustration" data-project="2">
+          <button class="project-image image-c" aria-label="Abrir proyecto Flora">
+            <span class="project-index">03</span>
+            <span class="image-word script">flora</span>
+            <span class="image-sub">ILUSTRACIÓN</span>
+          </button>
+          <div class="project-meta">
+            <div><h3>Flora</h3><p>Ilustración · Serie gráfica</p></div>
+            <span>2025</span>
+          </div>
+        </article>
+
+        <article class="project-card project-wide reveal" data-category="photography" data-project="3">
+          <button class="project-image image-d" aria-label="Abrir proyecto Umbral">
+            <span class="project-index">04</span>
+            <span class="image-word light">UMBRAL</span>
+            <span class="image-sub">FOTOGRAFÍA</span>
+          </button>
+          <div class="project-meta">
+            <div><h3>Umbral</h3><p>Fotografía · Concepto visual</p></div>
+            <span>2025</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="branding" data-project="4">
+          <button class="project-image image-e" aria-label="Abrir proyecto Círculo">
+            <span class="project-index">05</span>
+            <span class="image-word">CÍRCULO</span>
+            <span class="image-sub">BRANDING</span>
+          </button>
+          <div class="project-meta">
+            <div><h3>Círculo</h3><p>Branding · Sistema visual</p></div>
+            <span>2025</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="editorial" data-project="5">
+          <button class="project-image image-f" aria-label="Abrir proyecto Materia">
+            <span class="project-index">06</span>
+            <span class="image-word serif">MATERIA</span>
+            <span class="image-sub">EDITORIAL</span>
+          </button>
+          <div class="project-meta">
+            <div><h3>Materia</h3><p>Editorial · Publicación</p></div>
+            <span>2026</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="statement section">
+      <div class="statement-inner reveal">
+        <p class="eyebrow">Manifiesto</p>
+        <blockquote>
+          “El buen diseño no necesita<br>
+          <em>gritar</em> para hacerse notar.”
+        </blockquote>
+        <span class="statement-line"></span>
+      </div>
+    </section>
+
+    <section class="services section">
+      <div class="section-number">03</div>
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">Qué hago</p>
+          <h2>De la idea a la<br><em>forma.</em></h2>
+        </div>
+      </div>
+
+      <div class="services-list">
+        <div class="service reveal">
+          <span>01</span>
+          <h3>Identidad & branding</h3>
+          <p>Concepto, naming, identidad visual, sistemas gráficos y aplicaciones.</p>
+          <b>↗</b>
+        </div>
+        <div class="service reveal">
+          <span>02</span>
+          <h3>Diseño editorial</h3>
+          <p>Dirección de arte, publicaciones, catálogos, libros y composición.</p>
+          <b>↗</b>
+        </div>
+        <div class="service reveal">
+          <span>03</span>
+          <h3>Ilustración</h3>
+          <p>Ilustración conceptual, piezas digitales, campañas y recursos gráficos.</p>
+          <b>↗</b>
+        </div>
+        <div class="service reveal">
+          <span>04</span>
+          <h3>Fotografía</h3>
+          <p>Dirección visual, fotografía de producto, retrato y narrativa visual.</p>
+          <b>↗</b>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contacto">
+      <div class="contact-decoration">N</div>
+      <div class="contact-content reveal">
+        <p class="eyebrow">¿Tienes un proyecto?</p>
+        <h2>Hagamos algo<br><em>juntos.</em></h2>
+        <a class="email-link" href="mailto:hola@nicolle.com">hola@nicolle.com <span>↗</span></a>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Behance">Behance</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Nicolle</span>
+    <span>Diseño gráfico · Medellín</span>
+    <a href="#top">Volver arriba ↑</a>
+  </footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" data-close-modal aria-label="Cerrar proyecto">×</button>
+      <div class="modal-visual" id="modalVisual"></div>
+      <div class="modal-info">
+        <p class="eyebrow" id="modalCategory"></p>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+        <div class="modal-details">
+          <span id="modalYear"></span>
+          <span id="modalTools"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
